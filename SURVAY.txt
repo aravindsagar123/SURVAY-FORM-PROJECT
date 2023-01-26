@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=10">
+<style>
+.vl {
+  border-left: 60px solid aquamarine;
+  border-right: 60px solid aquamarine;
+  height: 1000px;
+}
+.age{
+  padding-left: 0.2cm;
+}
+        .role{
+          padding-left: 9.4cm;
+        }
+        h4{
+          padding-left: 9cm;
+        }
+        .ir{
+          padding-left: 7.6cm;
+          padding-bottom: 4cm;
+          
+        }
+        .nc{
+          padding-left: 8cm;
+        }
+
+
+
+h1{
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+
+
+</style>
+</head>
+<body>
+    <div class="vl">
+
+    <h1>
+        <b> <CENTER>
+            SURVAY FORMS</CENTER>
+        </b>
+    </h1>
+    <h3><center>
+      let us know how we can improve the free code class</center>
+    </h3>
+    <div style="text-align : center";>
+    <label> Name  :</label>
+        <input type="text" id="name" name="name" value=""><br><br>
+     
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" value=""><br><br>
+      <div class="age">
+        <label for="age">Age :</label>
+        <input type="number" id="age" name="age"><br><br>
+      </div>
+      </div>
+      <div class="role">
+        <label for="role"> Which option describe your current role? :</label>
+        <select id="role" name="role">
+          <option value="student">Student</option>
+          <option value="professional">Professional</option>
+          <option value="other">Other</option>
+        </select> </div><br>
+      
+<div class="recommend">
+     <h4>
+      How likely is that you would recommend : <br>Free Code Camp to a friend? 
+     
+     <div class="ir">
+
+            <input type="radio" id="definitely" name="recommend" value="definitely">
+            <label for="definitely">Definitely</label><br>
+       
+            <input type="radio" id="maybe" name="recommend" value="maybe">
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" id="not sure" name="recommend" value="not sure">
+            <label for="unlikely">Not sure</label></div> <br>
+            </div>
+            </div>
+           
+          </h4>
+        </div>
+          <div class="nc">
+            <label for="role"> Which option describe your current role? : </label>
+            <select id="role" name="role">
+              <option value="student">Student</option>
+              <option value="professional">Professional</option>
+              <option value="other">Other</option>
+            </select> </div><br>
+        
+        </div>
+      
+    
+      
+
+
+</body>
+</html>
